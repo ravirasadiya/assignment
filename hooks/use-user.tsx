@@ -1,6 +1,7 @@
+import axios from 'axios';
 import { useEffect, useState } from 'react';
 
-import type { UserModel } from '../utils/fetch-user-data';
+import type { UserModel } from '../models/UserModel';
 import fetchUserData from '../utils/fetch-user-data';
 import useSearchHistory from './use-search-history';
 
@@ -16,9 +17,12 @@ export default function useUser(username: string) {
       setLoading(true);
       setError(undefined);
       fetchUserData(username)
-        .then((res) => {
+        .then(async (res) => {
           if (!status.cancelled) {
+            const repoRes = await axios.get(res.repos_url);
+            res.repos = repoRes.data;
             setData(res);
+            pushToHistory(res);
           }
         })
         .catch((err) => {
@@ -29,7 +33,6 @@ export default function useUser(username: string) {
         .finally(() => {
           if (!status.cancelled) {
             setLoading(false);
-            pushToHistory(username);
           }
         });
     }

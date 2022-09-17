@@ -11,8 +11,10 @@ const History: NextPage = () => {
       <h1>Search History</h1>
       {(history || []).map((item, index) => (
         <div key={index}>
-          <Link href={`/search?username=${item}`}>
-            <a className={styles.Links}>{item}</a>
+          <Link href={`/search?username=${item.username}`}>
+            <a className={styles.Links}>
+              {item.username} {new Date(item.timestamp).toLocaleString()}
+            </a>
           </Link>
         </div>
       ))}
