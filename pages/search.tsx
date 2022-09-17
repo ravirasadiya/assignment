@@ -7,8 +7,11 @@ import styles from '../styles/Search.module.scss';
 const Search: NextPage = () => {
   return (
     <div className={styles.Search}>
-      <Form />
-      <UserDetails />
+      <div className='inpt_form cstm_cntnr'>
+        <Form />
+        <UserDetails />
+      </div>
+      
     </div>
   );
 };
