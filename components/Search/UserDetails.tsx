@@ -20,64 +20,52 @@ export default function UserDetails() {
               <h2>Your activity</h2>
               <span>Show</span>
             </div>
-            <div>
-              Return Theme
-            </div>
+            <label>Return Theme</label>
+            <h4>text here</h4>
+            <label>Return Theme</label>
+            <h4>text here</h4>
+            <label>Return Theme</label>
+            <h4>text here</h4>
           </div>
-         <div className='right_main'>
-            <div className='inr_txt'>
-              <h2>Your activity</h2>
-              <span>Show</span>
-            </div>
-            <div>
-              Return Theme
-            </div>
-         </div>
-         <div className='right_main'>
-            <div className='inr_txt'>
-              <h2>Your activity</h2>
-              <span>Show</span>
-            </div>
-            <div>
-              Return Theme
-            </div>
-          </div>
-         <div className='right_main'>
-            <div className='inr_txt'>
-              <h2>Your activity</h2>
-              <span>Show</span>
-            </div>
-            <div>
-              Return Theme
-            </div>
-         </div>
           <div className='right_main'>
             <div className='inr_txt'>
               <h2>Your activity</h2>
               <span>Show</span>
             </div>
-            <div>
-              Return Theme
-            </div>
-         </div>
-         <div className='right_main'>
-            <div className='inr_txt'>
-              <h2>Your activity</h2>
-              <span>Show</span>
-            </div>
-            <div>
-              Return Theme
-            </div>
-         </div>
+            <label>Return Theme</label>
+            <h4>text here</h4>
+            <label>Return Theme</label>
+            <h4>text here</h4>
+            <label>Return Theme</label>
+            <h4>text here</h4>
+          </div>
           <div className='right_main'>
             <div className='inr_txt'>
               <h2>Your activity</h2>
               <span>Show</span>
             </div>
-            <div>
-              Return Theme
+            <label>Return Theme</label>
+            <h4>text here</h4>
+            <label>Return Theme</label>
+            <h4>text here</h4>
+            <label>Return Theme</label>
+            <h4>text here</h4>
+          </div>
+          <div className='right_main'>
+            <div className='inr_txt'>
+              <h2>Your activity</h2>
+              <span>Show</span>
             </div>
-         </div>
+            <label>Return Theme</label>
+            <h4>text here</h4>
+            <label>Return Theme</label>
+            <h4>text here</h4>
+            <label>Return Theme</label>
+            <h4>text here</h4>
+          </div>
+          
+         
+          
         </div>
 
       </div>
