@@ -8,7 +8,7 @@ export default function Header() {
     <div className='header'>
         <div>Logo</div>
         <div className='had_link'>
-        <Link href="/search">
+        <Link href="/">
             <a>Search</a>
         </Link>
         <Link href="/history">

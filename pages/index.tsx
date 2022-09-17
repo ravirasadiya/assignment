@@ -1,14 +1,19 @@
 import type { NextPage } from 'next';
 
+import Form from '../components/Search/form';
+import UserDetails from '../components/Search/UserDetails';
+import styles from '../styles/Search.module.scss';
 
-import styles from '../styles/Home.module.scss';
-
-const Home: NextPage = () => {
+const Search: NextPage = () => {
   return (
-    <div className={styles.Container}>
-      asdasd
+    <div className={styles.Search}>
+      <div className='inpt_form cstm_cntnr'>
+        <Form />
+        <UserDetails />
+      </div>
+      
     </div>
   );
 };
 
-export default Home;
+export default Search;
