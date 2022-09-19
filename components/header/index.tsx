@@ -6,7 +6,7 @@ export default function Header() {
   return (
     <>
     <div className='header'>
-        <div>Logo</div>
+        <div></div>
         <div className='had_link'>
         <Link href="/">
             <a>Search</a>
